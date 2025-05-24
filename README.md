@@ -52,3 +52,21 @@
 ```
 登录移动端应用，可以浏览菜品、台南佳啊购物车、设置地址、在线下单等
 ```
+
+## 具体架构
+
+### 数据表
+```
+序号        表名            说明
+1           employee       员工表
+2           category       菜品和套餐分类表
+3           dish           菜品表
+4           setmeal        套餐表
+5           setmeal_dish   套餐菜品关系表
+6           dish_flavor    菜品口味关系表
+7           user           用户表（C端）
+8           address_book   地址簿表
+9           shopping_cart  购物车表   
+10          orders         订单表
+11          order_detail   订单明细表
+```
